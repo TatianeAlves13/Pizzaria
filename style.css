@@ -163,9 +163,27 @@ body{
 }
 .menu {
 	width: 1024px;
-	height: 40px;
-	top: 110px;
-	margin-left: 208px;
+	display: flex;
+	background-color: #D9A300;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+.menu-item{
+	width: 1024px;
+	background-color: #D9A300;	
+	font-size: 30px;
+	color: #000000;
+	align-items:flex-start;
+	justify-content: space-around;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
 }
 
 .conteudo {
@@ -187,22 +205,30 @@ body{
 }
 
 .texto-pizza {
+	display: flex;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 90px;
 	line-height: 105%;
-	letter-spacing: 0%;
+    align-items: flex-end;
+    justify-content: space-between;
 	color: #000000;
 	border-bottom: 3px solid #000000;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
 }
 
 
 .imagem-calabresa {
+	display: inline-block;
 	width: 298px;
 	height: 225px;
 }
 
 .imgem-siciliana {
+	display: inline-block;
 	width: 300;
 	height: 225;
 }
